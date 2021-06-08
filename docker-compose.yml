@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+    deusbarbershop: 
+        image: 428866/deusbarbershop:latest
+        restart: always
+        environment: 
+            connectionString:
+                "Server=localhost;Database=postgres;Port=5432;User Id=postgres;Password=admin;"
+        volumes: 
+            - "/etc/localtime:/etc/localtime:ro"

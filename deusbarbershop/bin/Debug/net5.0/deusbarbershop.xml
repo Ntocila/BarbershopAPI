@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>deusbarbershop</name>
+    </assembly>
+    <members>
+        <member name="T:deusbarbershop.Controllers.AppointmentController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:deusbarbershop.Controllers.AppointmentController.#ctor(Deus_DataAccessLayer.Data.ApplicationDbContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:deusbarbershop.Controllers.AppointmentController.GetAppointments">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:deusbarbershop.Controllers.AppointmentController.GetAppointment(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param ></param>
+            <returns></returns>
+        </member>
+        <member name="M:deusbarbershop.Controllers.AppointmentController.PutAppointment(deusbarbershop.Request.RequestAppointmentDetails)">
+            <summary>
+            
+            </summary>
+            <param></param>
+            <param name="appointment"></param>
+            <returns></returns>
+        </member>
+        <member name="M:deusbarbershop.Controllers.AppointmentController.PostAppointment(deusbarbershop.Request.RequestAppointmentDetails)">
+            <summary>
+            
+            </summary>
+            <param></param>
+            <returns></returns>
+        </member>
+        <member name="M:deusbarbershop.Controllers.AppointmentController.DeleteAppointment(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:deusbarbershop.Controllers.CustomerController">
+            <summary>
+            Endpoint used to interact with the Customers in Barber Shop Database
+            </summary>
+        </member>
+        <member name="M:deusbarbershop.Controllers.CustomerController.#ctor(Deus_DataAccessLayer.IRepositories.ICustomerRepository,AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="customerRepository"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:deusbarbershop.Controllers.CustomerController.GetCustomers">
+            <summary>
+            Get All Customers
+            </summary>
+            <returns>List of Customers</returns>
+        </member>
+        <member name="M:deusbarbershop.Controllers.CustomerController.GetCustomerById(System.Int32)">
+            <summary>
+            Get Customer By Id
+            </summary>
+            <param name="id"></param>
+            <returns>Customer record</returns>
+        </member>
+        <member name="M:deusbarbershop.Controllers.CustomerController.CreateUpdate(Deus_Models.DTOs.CustomerDto)">
+            <summary>
+            Create or update a customer
+            </summary>
+            <param name="customerDTO"></param>
+            <returns>Customer Info</returns>
+        </member>
+        <member name="M:deusbarbershop.Controllers.CustomerController.Delete(System.Int32)">
+            <summary>
+            Delete a customer record
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:deusbarbershop.Controllers.OwnerController">
+            <summary>
+            Endpoint used to interact with the ApplicationUser(IdentityUser) in Barber Shop Database
+            </summary>
+        </member>
+        <member name="M:deusbarbershop.Controllers.OwnerController.#ctor(Microsoft.AspNetCore.Identity.SignInManager{Deus_Models.Models.ApplicationOwner},Microsoft.AspNetCore.Identity.UserManager{Deus_Models.Models.ApplicationOwner})">
+            <summary>
+            
+            </summary>
+            <param name="signInManager"></param>
+            <param name="userManager"></param>
+        </member>
+        <member name="M:deusbarbershop.Controllers.OwnerController.Login(Deus_Models.DTOs.LoginDto)">
+            <summary>
+            User Login Endpoint
+            </summary>
+            <param name="loginDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="T:deusbarbershop.Controllers.ServiceController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:deusbarbershop.Controllers.ServiceController._serviceRepository">
+            <summary>
+            Endpoint used to interact with the SalonServices in Barber Shop Database
+            </summary>
+        </member>
+        <member name="M:deusbarbershop.Controllers.ServiceController.#ctor(Deus_DataAccessLayer.IRepositories.IServiceRepository,AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="serviceRepository"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:deusbarbershop.Controllers.ServiceController.GetServices">
+            <summary>
+            Get All Salon Services
+            </summary>
+            <returns>List of the Salon Services</returns>
+        </member>
+        <member name="M:deusbarbershop.Controllers.ServiceController.GetServiceById(System.Int32)">
+            <summary>
+            Get Salon Service By Id
+            </summary>
+            <param name="id"></param>
+            <returns>Salon Service record</returns>
+        </member>
+        <member name="M:deusbarbershop.Controllers.ServiceController.CreateUpdate(Deus_Models.DTOs.ServiceDto)">
+            <summary>
+            Create or Update a salon service
+            </summary>
+            <param name="serviceDTO"></param>
+            <returns>Salon Service Info</returns>
+        </member>
+        <member name="M:deusbarbershop.Controllers.ServiceController.Delete(System.Int32)">
+            <summary>
+            Delete a salon service record
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:deusbarbershop.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:deusbarbershop.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:deusbarbershop.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="T:deusbarbershop.Request.RequestAppointmentDetails">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:deusbarbershop.Request.RequestAppointmentDetails.ID">
+            <summary>
+            retrieving ID to change the details of that appointment
+            </summary>
+        </member>
+        <member name="P:deusbarbershop.Request.RequestAppointmentDetails.Date">
+            <summary>
+            retrieving date  to change the details of that appointment
+            </summary>
+        </member>
+        <member name="P:deusbarbershop.Request.RequestAppointmentDetails.Service_Id">
+            <summary>
+            Id of specific Service
+            </summary>
+        </member>
+        <member name="P:deusbarbershop.Request.RequestAppointmentDetails.Customer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:deusbarbershop.Response.ResponseAppointment">
+            <summary>
+            Response after requesting details
+            </summary>
+        </member>
+        <member name="P:deusbarbershop.Response.ResponseAppointment.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:deusbarbershop.Response.ResponseAppointment.AppointmentDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:deusbarbershop.Response.ResponseAppointment.CustomerName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:deusbarbershop.Response.ResponseAppointment.ServiceName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:deusbarbershop.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:deusbarbershop.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:deusbarbershop.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:deusbarbershop.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:deusbarbershop.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Identity.UserManager{Deus_Models.Models.ApplicationOwner},Microsoft.AspNetCore.Identity.RoleManager{Microsoft.AspNetCore.Identity.IdentityRole})">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+            <param name="userManager"></param>
+            <param name="roleManager"></param>
+        </member>
+    </members>
+</doc>
