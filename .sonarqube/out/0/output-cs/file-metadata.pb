@@ -1,0 +1,12 @@
+t
+kC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_Models\DTOs\AppointmentDTO.csutf-8q
+hC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_Models\DTOs\CustomerDTO.csutf-8n
+eC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_Models\DTOs\LoginDTO.csutf-8p
+gC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_Models\DTOs\ServiceDTO.csutf-8i
+`C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_Models\Maps\Map.csutf-8x
+oC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_Models\Models\ApplicationOwner.csutf-8s
+jC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_Models\Models\Appointment.csutf-8p
+gC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_Models\Models\Customer.csutf-8o
+fC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_Models\Models\Service.csutf-8†
+îC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_Models\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8ç
+ÅC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_Models\obj\Debug\net5.0\Deus_Models.AssemblyInfo.csutf-8

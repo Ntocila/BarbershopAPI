@@ -1,0 +1,12 @@
+Ö
+|C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\deusbarbershop\Controllers\AppointmentController.csutf-8Ç
+yC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\deusbarbershop\Controllers\CustomerController.csutf-8
+vC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\deusbarbershop\Controllers\OwnerController.csutf-8Å
+xC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\deusbarbershop\Controllers\ServiceController.csutf-8k
+bC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\deusbarbershop\Program.csutf-8Ö
+|C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\deusbarbershop\Request\RequestAppointmentDetails.csutf-8Ä
+wC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\deusbarbershop\Response\ResponseAppointment.csutf-8k
+bC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\deusbarbershop\Startup.csutf-8£
+óC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\deusbarbershop\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8ì
+áC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\deusbarbershop\obj\Debug\net5.0\deusbarbershop.AssemblyInfo.csutf-8¶
+öC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\deusbarbershop\obj\Debug\net5.0\deusbarbershop.MvcApplicationPartsAssemblyInfo.csutf-8
