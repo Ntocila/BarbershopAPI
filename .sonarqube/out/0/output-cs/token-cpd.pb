@@ -1,5 +1,5 @@
-¬
-kC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_Models\DTOs\AppointmentDTO.cs
+Ω
+fC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\Deus_Models\DTOs\AppointmentDTO.cs
 	namespace 	
 Deus_Models
  
@@ -64,8 +64,8 @@ Service_Id 
 ;( )
 }* +
 } 
-} ∂
-hC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_Models\DTOs\CustomerDTO.cs
+} ±
+cC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\Deus_Models\DTOs\CustomerDTO.cs
 	namespace 	
 Deus_Models
  
@@ -180,8 +180,8 @@ hC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_M
 ;- .
 }/ 0
 } 
-} ö	
-eC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_Models\DTOs\LoginDTO.cs
+} ï	
+`C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\Deus_Models\DTOs\LoginDTO.cs
 	namespace 	
 Deus_Models
  
@@ -253,8 +253,8 @@ eC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_M
 ;) *
 }+ ,
 } 
-} ‚
-gC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_Models\DTOs\ServiceDTO.cs
+} ›
+bC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\Deus_Models\DTOs\ServiceDTO.cs
 	namespace 	
 Deus_Models
  
@@ -343,8 +343,8 @@ ServiceDto
 ;. /
 }0 1
 } 
-} Ÿ
-`C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_Models\Maps\Map.cs
+} ‘
+[C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\Deus_Models\Maps\Map.cs
 	namespace
 
  	
@@ -416,8 +416,8 @@ ReverseMap5 ?
 ;A B
 } 	
 } 
-} ”
-oC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_Models\Models\ApplicationOwner.cs
+} Œ
+jC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\Deus_Models\Models\ApplicationOwner.cs
 	namespace		 	
 Deus_Models		
  
@@ -470,8 +470,8 @@ oC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_M
 ;) *
 }+ ,
 } 
-} í
-jC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_Models\Models\Appointment.cs
+} ç
+eC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\Deus_Models\Models\Appointment.cs
 	namespace		 	
 Deus_Models		
  
@@ -561,8 +561,8 @@ Service_Id 
 ;) *
 }+ ,
 } 
-} Ä
-gC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_Models\Models\Customer.cs
+} ˚
+bC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\Deus_Models\Models\Customer.cs
 	namespace 	
 Deus_Models
  
@@ -674,8 +674,8 @@ gC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_M
 ;- .
 }/ 0
 } 
-} Á
-fC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_Models\Models\Service.cs
+} ‚
+aC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\Deus_Models\Models\Service.cs
 	namespace		 	
 Deus_Models		
  

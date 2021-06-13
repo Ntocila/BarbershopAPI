@@ -1,0 +1,10 @@
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\.vs\deusbarbershop\v16\lut\0\b\Deus_Models\Debug\net5.0\Deus_Models.deps.json
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\.vs\deusbarbershop\v16\lut\0\b\Deus_Models\Debug\net5.0\Deus_Models.dll
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\.vs\deusbarbershop\v16\lut\0\b\Deus_Models\Debug\net5.0\ref\Deus_Models.dll
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\.vs\deusbarbershop\v16\lut\0\i\Deus_Models\Debug\net5.0\Deus_Models.csprojAssemblyReference.cache
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\.vs\deusbarbershop\v16\lut\0\i\Deus_Models\Debug\net5.0\Deus_Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\.vs\deusbarbershop\v16\lut\0\i\Deus_Models\Debug\net5.0\Deus_Models.AssemblyInfoInputs.cache
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\.vs\deusbarbershop\v16\lut\0\i\Deus_Models\Debug\net5.0\Deus_Models.AssemblyInfo.cs
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\.vs\deusbarbershop\v16\lut\0\i\Deus_Models\Debug\net5.0\Deus_Models.csproj.CopyComplete
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\.vs\deusbarbershop\v16\lut\0\i\Deus_Models\Debug\net5.0\Deus_Models.dll
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\.vs\deusbarbershop\v16\lut\0\i\Deus_Models\Debug\net5.0\ref\Deus_Models.dll

@@ -1,12 +1,13 @@
 Product projects
 ---------------------------------------
-C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_Models\Deus_Models.csproj
-C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_DataAccessLayer\Deus_DataAccessLayer.csproj
-C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\deusbarbershop\deusbarbershop.csproj
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\Deus_Models\Deus_Models.csproj
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\Deus_DataAccessLayer\Deus_DataAccessLayer.csproj
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\deusbarbershop\deusbarbershop.csproj
 
 
 Test projects
 ---------------------------------------
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\IntegrationTests\IntegrationTests.csproj
 
 
 Invalid projects
@@ -16,7 +17,7 @@ Invalid projects
 
 Skipped projects
 ---------------------------------------
-C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\API_Tests\API_Tests.csproj
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\FunctionalTests\FunctionalTests.csproj
 
 
 Excluded projects

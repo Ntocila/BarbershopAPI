@@ -1,5 +1,5 @@
-‰6
-|C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\deusbarbershop\Controllers\AppointmentController.cs
+ì6
+wC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\deusbarbershop\Controllers\AppointmentController.cs
 	namespace 	
 deusbarbershop
  
@@ -41,410 +41,372 @@
 context 
 ; 
 } 	
-[&& 	
-HttpGet&&	 
-]&& 
-public'' 
-async'' 
-Task'' 
-<'' 
-ActionResult'' &
-<''& '
-IEnumerable''' 2
-<''2 3
-Appointment''3 >
->''> ?
->''? @
->''@ A
-GetAppointments''B Q
-(''Q R
-)''R S
-{(( 	
-return)) 
-await)) 
-_context)) !
-.))! "
-Appointments))" .
-.)). /
+[%% 	
+HttpGet%%	 
+]%% 
+public&& 
+async&& 
+Task&& 
+<&& 
+ActionResult&& &
+<&&& '
+IEnumerable&&' 2
+<&&2 3
+Appointment&&3 >
+>&&> ?
+>&&? @
+>&&@ A
+GetAppointments&&B Q
+(&&Q R
+)&&R S
+{'' 	
+return(( 
+await(( 
+_context(( !
+.((! "
+Appointments((" .
+.((. /
+Include)) 
+()) 
+customer))  
+=>))! #
+customer))$ ,
+.)), -
+Customer))- 5
+)))5 6
+.))6 7
 Include** 
-(** 
-customer**  
-=>**! #
-customer**$ ,
-.**, -
-Customer**- 5
-)**5 6
-.**6 7
-Include++ 
-(++ 
-service++ 
-=>++  "
-service++# *
-.++* +
-Service+++ 2
-)++2 3
-.++3 4
-ToListAsync,, 
-(,, 
-),, 
-;,, 
-}-- 	
-[66 	
-HttpGet66	 
-(66 
-$str66 
-)66 
-]66 
-public77 
-async77 
-Task77 
-<77 
-ActionResult77 &
-<77& '
-Appointment77' 2
->772 3
->773 4
-GetAppointment775 C
-(77C D
-int77D G
-id77H J
-)77J K
-{88 	
-var99 
-appointment99 
-=99 
-await99 #
-_context99$ ,
-.99, -
-Appointments99- 9
-.999 :
-	FindAsync99: C
-(99C D
-id99D F
-)99F G
-;99G H
-if;; 
-(;; 
-appointment;; 
-==;; 
-null;; #
-);;# $
-{<< 
-return== 
-NotFound== 
-(==  
-)==  !
-;==! "
-}>> 
-return@@ 
-appointment@@ 
-;@@ 
-}AA 	
-[KK 	
-HttpPostKK	 
-(KK 
-$strKK %
-)KK% &
-]KK& '
-publicLL 
-asyncLL 
-TaskLL 
-<LL 
-IActionResultLL '
->LL' (
-PutAppointmentLL) 7
-(LL7 8%
-RequestAppointmentDetailsLL8 Q
-appointmentLLR ]
-)LL] ^
-{MM 	
-varOO 
+(** 
+service** 
+=>**  "
+service**# *
+.*** +
+Service**+ 2
+)**2 3
+.**3 4
+ToListAsync++ 
+(++ 
+)++ 
+;++ 
+},, 	
+[44 	
+HttpGet44	 
+(44 
+$str44 
+)44 
+]44 
+public55 
+async55 
+Task55 
+<55 
+ActionResult55 &
+<55& '
+Appointment55' 2
+>552 3
+>553 4
+GetAppointment555 C
+(55C D
+int55D G
+id55H J
+)55J K
+{66 	
+var77 
+appointment77 
+=77 
+await77 #
+_context77$ ,
+.77, -
+Appointments77- 9
+.779 :
+	FindAsync77: C
+(77C D
+id77D F
+)77F G
+;77G H
+if99 
+(99 
+appointment99 
+==99 
+null99 #
+)99# $
+{:: 
+return;; 
+NotFound;; 
+(;;  
+);;  !
+;;;! "
+}<< 
+return>> 
+appointment>> 
+;>> 
+}?? 	
+[GG 	
+HttpPostGG	 
+(GG 
+$strGG %
+)GG% &
+]GG& '
+publicHH 
+asyncHH 
+TaskHH 
+<HH 
+IActionResultHH '
+>HH' (
+PutAppointmentHH) 7
+(HH7 8%
+RequestAppointmentDetailsHH8 Q
+appointmentHHR ]
+)HH] ^
+{II 	
+varKK 
+resultKK 
+=KK 
+awaitKK 
+_contextKK '
+.KK' (
+AppointmentsKK( 4
+.KK4 5
+	FindAsyncKK5 >
+(KK> ?
+appointmentKK? J
+.KKJ K
+IDKKK M
+)KKM N
+;KKN O
+ifMM 
+(MM 
+resultMM 
+!=MM 
+nullMM 
+)MM 
+{NN 
 resultOO 
-=OO 
-awaitOO 
-_contextOO '
-.OO' (
-AppointmentsOO( 4
-.OO4 5
-	FindAsyncOO5 >
-(OO> ?
-appointmentOO? J
-.OOJ K
-IDOOK M
-)OOM N
-;OON O
-ifQQ 
-(QQ 
-resultQQ 
-!=QQ 
-nullQQ 
-)QQ 
-{RR 
-resultSS 
-.SS 
-AppointmentDateSS &
-=SS' (
-appointmentSS) 4
-.SS4 5
-DateSS5 9
-;SS9 :
-awaitTT 
-_contextTT 
-.TT 
-SaveChangesAsyncTT /
-(TT/ 0
-)TT0 1
-;TT1 2
-returnVV 
-OkVV 
-(VV 
-$strVV =
-)VV= >
-;VV> ?
-}WW 
-returnYY 
+.OO 
+AppointmentDateOO &
+=OO' (
+appointmentOO) 4
+.OO4 5
+DateOO5 9
+;OO9 :
+awaitPP 
+_contextPP 
+.PP 
+SaveChangesAsyncPP /
+(PP/ 0
+)PP0 1
+;PP1 2
+returnRR 
+OkRR 
+(RR 
+$strRR =
+)RR= >
+;RR> ?
+}SS 
+returnUU 
 
-BadRequestYY 
-(YY 
-$strYY A
-)YYA B
-;YYB C
-}[[ 	
-[cc 	
-HttpPostcc	 
-]cc 
-publicdd 
-asyncdd 
-Taskdd 
-<dd 
-ActionResultdd &
-<dd& '
-Appointmentdd' 2
->dd2 3
->dd3 4
-PostAppointmentdd5 D
-(ddD E%
-RequestAppointmentDetailsddE ^
-requestAppointmentdd_ q
-)ddq r
-{ee 	
-DateTimeff 
-nowff 
-=ff 
-DateTimeff #
-.ff# $
-Nowff$ '
-;ff' (
-ifgg 
-(gg 
-nowgg 
->=gg 
-requestAppointmentgg )
-.gg) *
-Dategg* .
-)gg. /
-{hh 
-throwhh 
-newhh 
-ArgumentExceptionhh )
-(hh) *
-$str	hh* Å
+BadRequestUU 
+(UU 
+$strUU A
+)UUA B
+;UUB C
+}WW 	
+[^^ 	
+HttpPost^^	 
+]^^ 
+public__ 
+async__ 
+Task__ 
+<__ 
+ActionResult__ &
+<__& '
+Appointment__' 2
+>__2 3
+>__3 4
+PostAppointment__5 D
+(__D E%
+RequestAppointmentDetails__E ^
+requestAppointment___ q
+)__q r
+{`` 	
+DateTimeaa 
+nowaa 
+=aa 
+DateTimeaa #
+.aa# $
+Nowaa$ '
+;aa' (
+ifbb 
+(bb 
+nowbb 
+>=bb 
+requestAppointmentbb )
+.bb) *
+Datebb* .
+)bb. /
+{cc 
+throwcc 
+newcc 
+ArgumentExceptioncc )
+(cc) *
+$str	cc* Å
 )
-hhÅ Ç
+ccÅ Ç
 ;
-hhÇ É
+ccÇ É
 }
-hhÑ Ö
-elseii 
-{jj 
-Appointmentkk 
-appointmentkk '
-=kk( )
-newkk* -
-(kk- .
-)kk. /
-{ll 
-AppointmentDatemm #
-=mm$ %
-requestAppointmentmm& 8
-.mm8 9
-Datemm9 =
-,mm= >
-Customernn 
-=nn 
-requestAppointmentnn 1
-.nn1 2
-Customernn2 :
-,nn: ;
+ccÑ Ö
+elsedd 
+{ee 
+Appointmentff 
+appointmentff '
+=ff( )
+newff* -
+(ff- .
+)ff. /
+{gg 
+AppointmentDatehh #
+=hh$ %
+requestAppointmenthh& 8
+.hh8 9
+Datehh9 =
+,hh= >
+Customerii 
+=ii 
+requestAppointmentii 1
+.ii1 2
+Customerii2 :
+,ii: ;
 
-Service_Idoo 
-=oo  
-requestAppointmentoo! 3
-.oo3 4
+Service_Idjj 
+=jj  
+requestAppointmentjj! 3
+.jj3 4
 
-Service_Idoo4 >
-}pp 
-;pp 
-_contextrr 
-.rr 
-Appointmentsrr %
-.rr% &
-Addrr& )
-(rr) *
-appointmentrr* 5
-)rr5 6
-;rr6 7
-awaitss 
-_contextss 
-.ss 
-SaveChangesAsyncss /
-(ss/ 0
-)ss0 1
-;ss1 2
-returntt 
-Oktt 
-(tt 
-)tt 
-;tt 
-}uu 
-}ww 	
-[
-ÄÄ 	
+Service_Idjj4 >
+}kk 
+;kk 
+_contextmm 
+.mm 
+Appointmentsmm %
+.mm% &
+Addmm& )
+(mm) *
+appointmentmm* 5
+)mm5 6
+;mm6 7
+awaitnn 
+_contextnn 
+.nn 
+SaveChangesAsyncnn /
+(nn/ 0
+)nn0 1
+;nn1 2
+returnoo 
+Okoo 
+(oo 
+)oo 
+;oo 
+}pp 
+}rr 	
+[zz 	
 
-HttpDelete
-ÄÄ	 
-(
-ÄÄ 
-$str
-ÄÄ 
-)
-ÄÄ 
-]
-ÄÄ 
-public
-ÅÅ 
-async
-ÅÅ 
-Task
-ÅÅ 
-<
-ÅÅ 
-IActionResult
-ÅÅ '
->
-ÅÅ' (
-DeleteAppointment
-ÅÅ) :
-(
-ÅÅ: ;
-int
-ÅÅ; >
-id
-ÅÅ? A
-)
-ÅÅA B
-{
-ÇÇ 	
-var
-ÉÉ 
-appointment
-ÉÉ 
-=
-ÉÉ 
-await
-ÉÉ #
-_context
-ÉÉ$ ,
-.
-ÉÉ, -
-Appointments
-ÉÉ- 9
-.
-ÉÉ9 :
-	FindAsync
-ÉÉ: C
-(
-ÉÉC D
-id
-ÉÉD F
-)
-ÉÉF G
-;
-ÉÉG H
-if
-ÑÑ 
-(
-ÑÑ 
-appointment
-ÑÑ 
-==
-ÑÑ 
-null
-ÑÑ #
-)
-ÑÑ# $
-{
-ÖÖ 
+HttpDeletezz	 
+(zz 
+$strzz 
+)zz 
+]zz 
+public{{ 
+async{{ 
+Task{{ 
+<{{ 
+IActionResult{{ '
+>{{' (
+DeleteAppointment{{) :
+({{: ;
+int{{; >
+id{{? A
+){{A B
+{|| 	
+var}} 
+appointment}} 
+=}} 
+await}} #
+_context}}$ ,
+.}}, -
+Appointments}}- 9
+.}}9 :
+	FindAsync}}: C
+(}}C D
+id}}D F
+)}}F G
+;}}G H
+if~~ 
+(~~ 
+appointment~~ 
+==~~ 
+null~~ #
+)~~# $
+{ 
 return
-ÜÜ 
+ÄÄ 
 NotFound
-ÜÜ 
+ÄÄ 
 (
-ÜÜ  
+ÄÄ  
 )
-ÜÜ  !
+ÄÄ  !
 ;
-ÜÜ! "
+ÄÄ! "
 }
-áá 
+ÅÅ 
 _context
-ââ 
+ÉÉ 
 .
-ââ 
+ÉÉ 
 Appointments
-ââ !
+ÉÉ !
 .
-ââ! "
+ÉÉ! "
 Remove
-ââ" (
+ÉÉ" (
 (
-ââ( )
+ÉÉ( )
 appointment
-ââ) 4
+ÉÉ) 4
 )
-ââ4 5
+ÉÉ4 5
 ;
-ââ5 6
+ÉÉ5 6
 await
-ää 
+ÑÑ 
 _context
-ää 
+ÑÑ 
 .
-ää 
+ÑÑ 
 SaveChangesAsync
-ää +
+ÑÑ +
 (
-ää+ ,
+ÑÑ+ ,
 )
-ää, -
+ÑÑ, -
 ;
-ää- .
+ÑÑ- .
 return
-åå 
+ÜÜ 
 	NoContent
-åå 
+ÜÜ 
 (
-åå 
+ÜÜ 
 )
-åå 
+ÜÜ 
 ;
-åå 
+ÜÜ 
 }
-çç 	
+áá 	
 }
-éé 
-}èè íG
-yC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\deusbarbershop\Controllers\CustomerController.cs
+àà 
+}ââ çG
+tC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\deusbarbershop\Controllers\CustomerController.cs
 	namespace 	
 deusbarbershop
  
@@ -1024,8 +986,8 @@ StatusCode
 òò 	
 }
 ôô 
-}öö Ç
-vC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\deusbarbershop\Controllers\OwnerController.cs
+}öö ˝
+qC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\deusbarbershop\Controllers\OwnerController.cs
 	namespace 	
 deusbarbershop
  
@@ -1195,8 +1157,8 @@ StatusCode== !
 }>> 
 }?? 	
 }@@ 
-}AA ©G
-xC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\deusbarbershop\Controllers\ServiceController.cs
+}AA §G
+sC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\deusbarbershop\Controllers\ServiceController.cs
 	namespace
 
  	
@@ -1815,9 +1777,9 @@ StatusCode
 öö 	
 }
 õõ 
-}úú “
+}úú Õ
 
-bC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\deusbarbershop\Program.cs
+]C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\deusbarbershop\Program.cs
 	namespace
 
  	
@@ -1896,8 +1858,8 @@ UseStartup$$ )
 )%% 
 ;%% 
 }&& 
-}'' ø
-|C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\deusbarbershop\Request\RequestAppointmentDetails.cs
+}'' ∫
+wC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\deusbarbershop\Request\RequestAppointmentDetails.cs
 	namespace 	
 deusbarbershop
  
@@ -1947,8 +1909,8 @@ Service_Id 
 ;  + ,
 }  - .
 }"" 
-}## ∆
-wC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\deusbarbershop\Response\ResponseAppointment.cs
+}## ¡
+rC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\deusbarbershop\Response\ResponseAppointment.cs
 	namespace 	
 deusbarbershop
  
@@ -1997,8 +1959,8 @@ wC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\deusba
 ;, -
 }. /
 }!! 
-}"" É7
-bC:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\deusbarbershop\Startup.cs
+}"" ˛6
+]C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\deusbarbershop\Startup.cs
 	namespace 	
 deusbarbershop
  

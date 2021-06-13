@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DZ6FL3vthq0Gb19z0J4icu/mycVDA+FSP412sXwJE470PvuEHm8PRqOchTlzc0OwZConQ0GjCD/uiK4iztB4/Q==",
+  "dgSpecHash": "X5PpAh8iNWbq50zjfYbiQ7OReHnAdNGqnqKnMlJ1biUMrWgyniBoWZpe4atS1dqc4zfgZH2Md0r+TwesNu42+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\deusbarbershop\\DEUS\\Server\\FunctionalTests\\FunctionalTests.csproj",
+  "projectFilePath": "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\DeusBarberShopService\\FunctionalTests\\FunctionalTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\giwrg\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\giwrg\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

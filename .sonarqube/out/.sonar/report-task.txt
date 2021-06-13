@@ -1,6 +1,6 @@
-projectKey=deusbarbershop
+projectKey=deus
 serverUrl=http://localhost:9000
 serverVersion=8.9.0.43852
-dashboardUrl=http://localhost:9000/dashboard?id=deusbarbershop
-ceTaskId=AXnHvj7zX1RjT4-a0W6h
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXnHvj7zX1RjT4-a0W6h
+dashboardUrl=http://localhost:9000/dashboard?id=deus
+ceTaskId=AXoF6NfXfVeuHjWWwsKV
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXoF6NfXfVeuHjWWwsKV

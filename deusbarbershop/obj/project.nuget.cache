@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oKImoJ7rAYlD8UOBNTd58tHmonmkg26mA9Na+avg1QBstHxFymzqiEjj21xzAAx0v5emHJJ5CpfAI00FasO7Vg==",
+  "dgSpecHash": "p6+KtkqjgEyqUeRALwJcSLNoyeW4PMgBMySPsxN6jVZmHyyYieZ4RzFGY8K6AQGQEo3p9vqGJL5b2bwG9X24cA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\deusbarbershop\\DEUS\\Server\\deusbarbershop\\deusbarbershop.csproj",
+  "projectFilePath": "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\DeusBarberShopService\\deusbarbershop\\deusbarbershop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\giwrg\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\giwrg\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

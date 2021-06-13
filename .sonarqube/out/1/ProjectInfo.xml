@@ -4,14 +4,14 @@
   <ProjectLanguage>C#</ProjectLanguage>
   <ProjectType>Product</ProjectType>
   <ProjectGuid>bb5a7ba1-4174-42a8-9d91-ea9f16339629</ProjectGuid>
-  <FullPath>C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_DataAccessLayer\Deus_DataAccessLayer.csproj</FullPath>
+  <FullPath>C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\Deus_DataAccessLayer\Deus_DataAccessLayer.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
-    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\.sonarqube\conf\1\FilesToAnalyze.txt" />
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\.sonarqube\conf\1\FilesToAnalyze.txt" />
   </AnalysisResults>
   <AnalysisSettings>
-    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_DataAccessLayer\bin\Debug\net5.0\Deus_DataAccessLayer.dll.RoslynCA.json|C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\Server\Deus_DataAccessLayer\bin\Debug\net5.0\Deus_DataAccessLayer.dll.RoslynCA.json</Property>
-    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\deusbarbershop\DEUS\.sonarqube\out\1</Property>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\Deus_DataAccessLayer\bin\Debug\net5.0\Deus_DataAccessLayer.dll.RoslynCA.json|C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\Deus_DataAccessLayer\bin\Debug\net5.0\Deus_DataAccessLayer.dll.RoslynCA.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\.sonarqube\out\1</Property>
   </AnalysisSettings>
   <Configuration>Debug</Configuration>
   <Platform>AnyCPU</Platform>

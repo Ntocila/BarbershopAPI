@@ -34,7 +34,6 @@ namespace deusbarbershop.Controllers
         /// 
         /// </summary>
         /// <returns></returns>
-        // GET: api/Appointment
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Appointment>>> GetAppointments()
         {
@@ -50,7 +49,6 @@ namespace deusbarbershop.Controllers
         /// </summary>
         /// <param ></param>
         /// <returns></returns>
-        // GET: api/Appointment/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Appointment>> GetAppointment(int id)
         {
@@ -70,8 +68,6 @@ namespace deusbarbershop.Controllers
         /// <param></param>
         /// <param name="appointment"></param>
         /// <returns></returns>
-        // PUT: api/Appointment/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost("ChangeAppointment")]
         public async Task<IActionResult> PutAppointment(RequestAppointmentDetails appointment)
         {
@@ -95,7 +91,6 @@ namespace deusbarbershop.Controllers
         /// </summary>
         /// <param></param>
         /// <returns></returns>
-        // POST: api/Appointment
         [HttpPost]
         public async Task<ActionResult<Appointment>> PostAppointment(RequestAppointmentDetails requestAppointment)
         {
@@ -124,7 +119,6 @@ namespace deusbarbershop.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        // DELETE: api/Appointment/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAppointment(int id)
         {
