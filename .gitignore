@@ -1,2 +1,27 @@
-.yml
-.git
+.DS_Store
+
+
+
+# local
+*.yml
+*.gitignore
+
+# Log files
+*.log
+
+# Editor directories and files
+.idea
+.vscode
+
+
+# NuGet Packages
+*.nupkg
+
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+
+# EPiServer Site file (VPP)
+AppData/
