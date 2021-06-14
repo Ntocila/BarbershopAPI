@@ -4,6 +4,8 @@ obj/
 riderModule.iml
 /_ReSharper.Caches/
 
+docker-compose.yml
+
 *.swp
 *.*~
 project.lock.json
@@ -13,6 +15,7 @@ nupkg/
 
 # Visual Studio Code
 .vscode
+.vs/
 
 # Rider
 .idea
@@ -41,8 +44,6 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
-
-.sonarqube
 
 sonarcubeanalyse.bat
 .sonarqube
