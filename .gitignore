@@ -4,7 +4,7 @@ obj/
 riderModule.iml
 /_ReSharper.Caches/
 
-docker-compose.yml
+.sonarqube
 
 *.swp
 *.*~
@@ -15,7 +15,6 @@ nupkg/
 
 # Visual Studio Code
 .vscode
-.vs/
 
 # Rider
 .idea
@@ -44,6 +43,3 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
-
-.sonar/
-.scannerwork/
