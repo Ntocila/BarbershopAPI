@@ -25,8 +25,5 @@ The first part of the applciation is the authentication. Before accessing the ap
 
 
 The back-end service includes all the models-controllers-views necessary to achieve the above requirements. To retrieve and display all the information from the Back-End there is a Front-End necessary. We will talk about the front-end later on one of my other repositories. Finally, 
-to access all the data that are stored in our Database we have to make HTTP requests. The diagram below explains how the HTTP requests work according to user's actions.
-
-![diagram](https://user-images.githubusercontent.com/55668398/121595285-6965e280-ca3e-11eb-91b3-2f0fc6ed0e73.JPG)
-
+to access all the data that are stored in our Database we have to make HTTP requests.
 
