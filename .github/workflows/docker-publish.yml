@@ -10,13 +10,15 @@ jobs:
   test:
     name: Integration Tests
     runs-on: ubuntu-latest
-    env:
-      DefaultConnection: ${{secrets.CONNECTION_STRING}}
+   
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '5.x.x'         
+          dotnet-version: '5.x.x'
+          configurationFile: 'appsettings.json'
+          format: 'json'
+          DefaultConnection: ${{secrets.CONNECTION_STRING}}
       - run: dotnet test
 
   build:
