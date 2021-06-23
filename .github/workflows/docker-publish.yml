@@ -14,9 +14,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-dotnet@v1
+      - env:
+          connectionString: ${{secrets.CONNECTION_STRING}}
         with:
+          dotnet-version: '5.x.x'      
           configurationFile: 'appsettings.json'
-          DefaultConnection: ${{ secrets.CONNECTION_STRING }}
+          format: "json"
           separator: ':'
       - run: dotnet test
       
