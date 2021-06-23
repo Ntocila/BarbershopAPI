@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deus_Models", "Deus_Models\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1891DBD9-B9B6-4260-A00F-71282EA402FC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionalTests", "FunctionalTests\FunctionalTests.csproj", "{442FF06D-E12D-404E-A011-F6122B3D47A2}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{9A6F7241-519F-4059-8B6F-A21D0D7D8E68}"
 EndProject
 Global
@@ -33,10 +31,6 @@ Global
 		{9BC6A99A-3E7F-439A-B809-F271D9F807BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BC6A99A-3E7F-439A-B809-F271D9F807BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BC6A99A-3E7F-439A-B809-F271D9F807BE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{442FF06D-E12D-404E-A011-F6122B3D47A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{442FF06D-E12D-404E-A011-F6122B3D47A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{442FF06D-E12D-404E-A011-F6122B3D47A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{442FF06D-E12D-404E-A011-F6122B3D47A2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9A6F7241-519F-4059-8B6F-A21D0D7D8E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9A6F7241-519F-4059-8B6F-A21D0D7D8E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A6F7241-519F-4059-8B6F-A21D0D7D8E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -46,7 +40,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{442FF06D-E12D-404E-A011-F6122B3D47A2} = {1891DBD9-B9B6-4260-A00F-71282EA402FC}
 		{9A6F7241-519F-4059-8B6F-A21D0D7D8E68} = {1891DBD9-B9B6-4260-A00F-71282EA402FC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution

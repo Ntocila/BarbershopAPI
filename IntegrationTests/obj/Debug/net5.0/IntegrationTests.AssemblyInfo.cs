@@ -12,11 +12,12 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("deusbarbershop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\DeusBarberShopService\\deusbarbersho" +
-    "p", "deusbarbershop.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Deus_DataAccessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\DeusBarberShopService\\Deus_DataAcce" +
-    "ssLayer", "Deus_DataAccessLayer.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Deus_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\DeusBarberShopService\\Deus_Models", "Deus_Models.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("deusbarbershop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\IP-S3DB01\\DeusBarberShopService\\deu" +
+    "sbarbershop", "deusbarbershop.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Deus_DataAccessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\IP-S3DB01\\DeusBarberShopService\\Deu" +
+    "s_DataAccessLayer", "Deus_DataAccessLayer.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Deus_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\IP-S3DB01\\DeusBarberShopService\\Deu" +
+    "s_Models", "Deus_Models.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("IntegrationTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
