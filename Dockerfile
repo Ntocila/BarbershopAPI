@@ -21,11 +21,6 @@ WORKDIR /app/deusbarbershop
 RUN dotnet publish -c Release -o out 
 #
 
-# run the unit tests
-FROM build AS test
-WORKDIR /app/deusbarbershop/IntegrationTests/*
-RUN dotnet test 
-
 FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS runtime
 WORKDIR /app 
 #
