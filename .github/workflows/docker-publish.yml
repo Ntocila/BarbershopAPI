@@ -10,12 +10,12 @@ jobs:
   test:
     name: Integration Tests
     runs-on: ubuntu-latest
-    
+    env:
+          connectionString: ${{secrets.CONNECTION_STRING}}
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-dotnet@v1
-      - env:
-          connectionString: ${{secrets.CONNECTION_STRING}}
+     
         with:      
           configurationFile: 'appsettings.json'
           format: "json"
