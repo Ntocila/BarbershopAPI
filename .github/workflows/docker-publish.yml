@@ -7,8 +7,20 @@ on:
     branches: [ master ]
 
 jobs:
- 
+  test:
+    name: Integration Tests
+    runs-on: ubuntu-latest
+    env:
+      connectionString: ${{secrets.CONNECTION_STRING}}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '5.x.x'         
+      - run: dotnet test
+
   build:
+    needs: test
     runs-on: ubuntu-latest
     
     steps:
