@@ -26,5 +26,8 @@ jobs:
           push: true
           tags: 428866/deus:latest
       -
+        name: Test
+        run:  dotnet test
+      -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
