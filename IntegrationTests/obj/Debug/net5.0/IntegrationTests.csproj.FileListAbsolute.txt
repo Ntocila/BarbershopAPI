@@ -1054,7 +1054,6 @@ C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\In
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\IntegrationTests\bin\Debug\net5.0\deusbarbershop.pdb
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\IntegrationTests\bin\Debug\net5.0\Deus_DataAccessLayer.pdb
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\IntegrationTests\bin\Debug\net5.0\Deus_Models.pdb
-C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\IntegrationTests\obj\Debug\net5.0\IntegrationTests.csprojAssemblyReference.cache
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\IntegrationTests\obj\Debug\net5.0\IntegrationTests.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\IntegrationTests\obj\Debug\net5.0\IntegrationTests.AssemblyInfoInputs.cache
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\IntegrationTests\obj\Debug\net5.0\IntegrationTests.AssemblyInfo.cs
@@ -1064,3 +1063,5 @@ C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\In
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\IntegrationTests\obj\Debug\net5.0\ref\IntegrationTests.dll
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\IntegrationTests\obj\Debug\net5.0\IntegrationTests.pdb
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\IntegrationTests\obj\Debug\net5.0\IntegrationTests.genruntimeconfig.cache
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\IntegrationTests\obj\Debug\net5.0\IntegrationTests.csproj.AssemblyReference.cache
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\IntegrationTests\bin\Debug\net5.0\deusbarbershop.StaticWebAssets.xml

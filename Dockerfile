@@ -9,8 +9,6 @@ COPY Deus_Models/*.csproj ./Deus_Models/
 COPY FunctionalTests/*.csproj ./FunctionalTests/
 COPY IntegrationTests/*.csproj ./IntegrationTests/
 #
-RUN dotnet test
-#
 # copy everything else and build app
 COPY Deus_DataAccessLayer/. ./Deus_DataAccessLayer/
 COPY deusbarbershop/. ./deusbarbershop/
@@ -18,9 +16,21 @@ COPY Deus_Models/. ./Deus_Models/
 COPY FunctionalTests/. ./FunctionalTests/
 COPY IntegrationTests/. ./IntegrationTests/
 #
+
+# run the unit tests
+FROM build AS test
+WORKDIR /app/deusbarbershop/IntegrationTests/*
+RUN dotnet test 
+
+
 WORKDIR /app/deusbarbershop
 RUN dotnet publish -c Release -o out 
 #
+
+FROM build AS test
+WORKDIR /app/
+RUN dotnet test --logger:trx
+
 FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS runtime
 WORKDIR /app 
 #

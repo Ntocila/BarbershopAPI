@@ -5,13 +5,34 @@
     {
       "tool": {
         "name": "Microsoft (R) Visual C# Compiler",
-        "version": "3.9.0.0",
-        "fileVersion": "3.9.0-6.21160.10 (59eedc33)",
-        "semanticVersion": "3.9.0",
+        "version": "3.10.0.0",
+        "fileVersion": "3.10.0-4.21269.26 (02984771)",
+        "semanticVersion": "3.10.0",
         "language": "en-US"
       },
       "results": [
-      ]
+        {
+          "ruleId": "CS8035",
+          "level": "error",
+          "message": "Error reading ruleset file C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\DeusBarberShopService\\.sonarqube\\conf\\Sonar-cs.ruleset - File not found."
+        }
+      ],
+      "rules": {
+        "CS8035": {
+          "id": "CS8035",
+          "defaultLevel": "error",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8035)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry",
+              "NotConfigurable"
+            ]
+          }
+        }
+      }
     }
   ]
 }

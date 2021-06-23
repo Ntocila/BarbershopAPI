@@ -815,7 +815,6 @@ C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\de
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\deusbarbershop\bin\Debug\net5.0\Deus_Models.dll
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\deusbarbershop\bin\Debug\net5.0\Deus_DataAccessLayer.pdb
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\deusbarbershop\bin\Debug\net5.0\Deus_Models.pdb
-C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\deusbarbershop\obj\Debug\net5.0\deusbarbershop.csprojAssemblyReference.cache
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\deusbarbershop\obj\Debug\net5.0\deusbarbershop.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\deusbarbershop\obj\Debug\net5.0\deusbarbershop.AssemblyInfoInputs.cache
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\deusbarbershop\obj\Debug\net5.0\deusbarbershop.AssemblyInfo.cs
@@ -831,3 +830,4 @@ C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\de
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\deusbarbershop\obj\Debug\net5.0\ref\deusbarbershop.dll
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\deusbarbershop\obj\Debug\net5.0\deusbarbershop.pdb
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\deusbarbershop\obj\Debug\net5.0\deusbarbershop.genruntimeconfig.cache
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\deusbarbershop\obj\Debug\net5.0\deusbarbershop.csproj.AssemblyReference.cache

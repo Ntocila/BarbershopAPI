@@ -50,7 +50,6 @@ C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\De
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\Deus_Models\bin\Debug\net5.0\Deus_Models.dll
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\Deus_Models\bin\Debug\net5.0\ref\Deus_Models.dll
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\Deus_Models\bin\Debug\net5.0\Deus_Models.pdb
-C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\Deus_Models\obj\Debug\net5.0\Deus_Models.csprojAssemblyReference.cache
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\Deus_Models\obj\Debug\net5.0\Deus_Models.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\Deus_Models\obj\Debug\net5.0\Deus_Models.AssemblyInfoInputs.cache
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\Deus_Models\obj\Debug\net5.0\Deus_Models.AssemblyInfo.cs
@@ -58,3 +57,4 @@ C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\De
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\Deus_Models\obj\Debug\net5.0\Deus_Models.dll
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\Deus_Models\obj\Debug\net5.0\ref\Deus_Models.dll
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\Deus_Models\obj\Debug\net5.0\Deus_Models.pdb
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\Deus_Models\obj\Debug\net5.0\Deus_Models.csproj.AssemblyReference.cache
