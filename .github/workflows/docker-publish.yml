@@ -7,8 +7,22 @@ on:
     branches: [ master ]
 
 jobs:
-  
+  test:
+    needs: build
+    name: Integration Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-dotnet@v1
+        with:      
+          configurationFile: 'appsettings.json'
+          format: "json"
+          separator: ':'
+          dotnet-version: '5.x.x'
+      - run: dotnet test
+      
   analyze:
+    needs: test
     name: Analyze
     runs-on: ubuntu-latest
     permissions:
@@ -58,17 +72,4 @@ jobs:
      
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
-  test:
-    needs: build
-    name: Integration Tests
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-dotnet@v1
-        with:      
-          configurationFile: 'appsettings.json'
-          format: "json"
-          separator: ':'
-          dotnet-version: '5.x.x'
-      - run: dotnet test --configuration Release
-      
+  
