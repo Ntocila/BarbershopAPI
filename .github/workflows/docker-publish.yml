@@ -10,18 +10,15 @@ jobs:
   test:
     name: Integration Tests
     runs-on: ubuntu-latest
-    env:
-          connectionString: ${{secrets.CONNECTION_STRING}}
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-dotnet@v1
-     
         with:      
           configurationFile: 'appsettings.json'
           format: "json"
           separator: ':'
           dotnet-version: '5.x.x'
-      - run: dotnet test
+      - run: dotnet test --configuration Release
       
   analyze:
     needs: test
