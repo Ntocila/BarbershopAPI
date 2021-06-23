@@ -9,7 +9,7 @@ COPY Deus_Models/*.csproj ./Deus_Models/
 COPY FunctionalTests/*.csproj ./FunctionalTests/
 COPY IntegrationTests/*.csproj ./IntegrationTests/
 #
-RUN dotnet test ./IntegrationTests/*.csproj --configuration Release --no-restore
+RUN dotnet test
 #
 # copy everything else and build app
 COPY Deus_DataAccessLayer/. ./Deus_DataAccessLayer/
