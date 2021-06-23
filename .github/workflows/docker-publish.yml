@@ -27,7 +27,7 @@ jobs:
           tags: 428866/deus:latest
       -
         name: Test
-         run: dotnet test --no-restore --verbosity normal
+        run: dotnet test --no-restore --verbosity normal
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
