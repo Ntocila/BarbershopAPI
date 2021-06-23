@@ -16,11 +16,11 @@ jobs:
       - uses: actions/setup-dotnet@v1
       - env:
           connectionString: ${{secrets.CONNECTION_STRING}}
-        with:
-          dotnet-version: '5.x.x'      
+        with:      
           configurationFile: 'appsettings.json'
           format: "json"
           separator: ':'
+          dotnet-version: '5.x.x'
       - run: dotnet test
       
   analyze:
