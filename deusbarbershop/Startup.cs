@@ -43,22 +43,25 @@ namespace deusbarbershop
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseNpgsql(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+
             services.AddDatabaseDeveloperPageExceptionFilter();
-            services.AddDefaultIdentity<ApplicationOwner>()
-                .AddRoles<IdentityRole>()
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddIdentity<Deus_Models.Models.ApplicationOwner, IdentityRole>(options =>
+            {
+                options.User.RequireUniqueEmail = false;
+            })
+      .AddEntityFrameworkStores<Deus_DataAccessLayer.Data.ApplicationDbContext>()
+      .AddDefaultTokenProviders();
 
             services.AddAutoMapper(typeof(Deus_Models.Maps.Map));
-            services.AddSwaggerGen(c=> {
+            services.AddSwaggerGen(c => {
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
                     Title = "deusbarbershop API",
                     Description = "Barbershop Api"
-                
-                
+
+
                 });
                 var xFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 var xPath = Path.Combine(AppContext.BaseDirectory, xFile);
@@ -110,7 +113,7 @@ namespace deusbarbershop
 
             app.UseHttpsRedirection();
             app.UseCors("CorsPolicy");
-           
+
             app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();

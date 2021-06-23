@@ -25,22 +25,22 @@
             <summary>
             
             </summary>
-            <param name="id"></param>
+            <param ></param>
             <returns></returns>
         </member>
-        <member name="M:deusbarbershop.Controllers.AppointmentController.PutAppointment(System.Int32,Deus_Models.Models.Appointment)">
+        <member name="M:deusbarbershop.Controllers.AppointmentController.PutAppointment(deusbarbershop.Request.RequestAppointmentDetails)">
             <summary>
             
             </summary>
-            <param name="id"></param>
+            <param></param>
             <param name="appointment"></param>
             <returns></returns>
         </member>
-        <member name="M:deusbarbershop.Controllers.AppointmentController.PostAppointment(Deus_Models.Models.Appointment)">
+        <member name="M:deusbarbershop.Controllers.AppointmentController.PostAppointment(deusbarbershop.Request.RequestAppointmentDetails)">
             <summary>
             
             </summary>
-            <param name="appointment"></param>
+            <param></param>
             <returns></returns>
         </member>
         <member name="M:deusbarbershop.Controllers.AppointmentController.DeleteAppointment(System.Int32)">
@@ -75,7 +75,7 @@
             <param name="id"></param>
             <returns>Customer record</returns>
         </member>
-        <member name="M:deusbarbershop.Controllers.CustomerController.CreateUpdate(Deus_Models.DTOs.CustomerDTO)">
+        <member name="M:deusbarbershop.Controllers.CustomerController.CreateUpdate(Deus_Models.DTOs.CustomerDto)">
             <summary>
             Create or update a customer
             </summary>
@@ -101,7 +101,7 @@
             <param name="signInManager"></param>
             <param name="userManager"></param>
         </member>
-        <member name="M:deusbarbershop.Controllers.OwnerController.Login(Deus_Models.DTOs.LoginDTO)">
+        <member name="M:deusbarbershop.Controllers.OwnerController.Login(Deus_Models.DTOs.LoginDto)">
             <summary>
             User Login Endpoint
             </summary>
@@ -138,7 +138,7 @@
             <param name="id"></param>
             <returns>Salon Service record</returns>
         </member>
-        <member name="M:deusbarbershop.Controllers.ServiceController.CreateUpdate(Deus_Models.DTOs.ServiceDTO)">
+        <member name="M:deusbarbershop.Controllers.ServiceController.CreateUpdate(Deus_Models.DTOs.ServiceDto)">
             <summary>
             Create or Update a salon service
             </summary>
@@ -170,6 +170,56 @@
             <param name="args"></param>
             <returns></returns>
             
+        </member>
+        <member name="T:deusbarbershop.Request.RequestAppointmentDetails">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:deusbarbershop.Request.RequestAppointmentDetails.ID">
+            <summary>
+            retrieving ID to change the details of that appointment
+            </summary>
+        </member>
+        <member name="P:deusbarbershop.Request.RequestAppointmentDetails.Date">
+            <summary>
+            retrieving date  to change the details of that appointment
+            </summary>
+        </member>
+        <member name="P:deusbarbershop.Request.RequestAppointmentDetails.Service_Id">
+            <summary>
+            Id of specific Service
+            </summary>
+        </member>
+        <member name="P:deusbarbershop.Request.RequestAppointmentDetails.Customer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:deusbarbershop.Response.ResponseAppointment">
+            <summary>
+            Response after requesting details
+            </summary>
+        </member>
+        <member name="P:deusbarbershop.Response.ResponseAppointment.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:deusbarbershop.Response.ResponseAppointment.AppointmentDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:deusbarbershop.Response.ResponseAppointment.CustomerName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:deusbarbershop.Response.ResponseAppointment.ServiceName">
+            <summary>
+            
+            </summary>
         </member>
         <member name="T:deusbarbershop.Startup">
             <summary>

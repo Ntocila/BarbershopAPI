@@ -523,4 +523,11 @@ C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\IntegrationT
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\IntegrationTests\obj\Debug\net5.0\ref\IntegrationTests.dll
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\IntegrationTests\obj\Debug\net5.0\IntegrationTests.pdb
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\IntegrationTests\obj\Debug\net5.0\IntegrationTests.genruntimeconfig.cache
-C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\IntegrationTests\bin\Debug\net5.0\deusbarbershop.StaticWebAssets.xml
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\IntegrationTests\bin\Debug\net5.0\DoomedDatabases.Postgres.dll
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\IntegrationTests\bin\Debug\net5.0\nunit.framework.dll
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\IntegrationTests\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\IntegrationTests\bin\Debug\net5.0\Respawn.dll
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\IntegrationTests\bin\Debug\net5.0\jsnlog.dll
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\IntegrationTests\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.Host.dll
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\IntegrationTests\bin\Debug\net5.0\Microsoft.Extensions.Globalization.CultureInfoCache.dll
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\IntegrationTests\bin\Debug\net5.0\Microsoft.Extensions.PlatformAbstractions.dll

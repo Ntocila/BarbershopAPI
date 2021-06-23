@@ -25,10 +25,7 @@ namespace Deus_DataAccessLayer.Data
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
-           
-            builder.Entity<ApplicationOwner>().Property(a => a.PhoneNumber)
-                                            .IsRequired()
-                                            .HasMaxLength(15);
+          
         }
     }
 }

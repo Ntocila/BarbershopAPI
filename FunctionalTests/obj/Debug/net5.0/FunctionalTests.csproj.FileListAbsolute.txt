@@ -523,4 +523,3 @@ C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\FunctionalTe
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\FunctionalTests\obj\Debug\net5.0\ref\FunctionalTests.dll
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\FunctionalTests\obj\Debug\net5.0\FunctionalTests.pdb
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\FunctionalTests\obj\Debug\net5.0\FunctionalTests.genruntimeconfig.cache
-C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\FunctionalTests\bin\Debug\net5.0\deusbarbershop.StaticWebAssets.xml

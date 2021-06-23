@@ -14,6 +14,7 @@ namespace deusbarbershop.Controllers
     /// <summary>
     /// 
     /// </summary>
+    [Produces("application/json")]
     [Route("[controller]")]
     [ApiController]
     public class AppointmentController : ControllerBase

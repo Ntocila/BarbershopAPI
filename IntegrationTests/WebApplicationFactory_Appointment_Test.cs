@@ -1,12 +1,15 @@
 using Deus_Models.Models;
 using deusbarbershop;
 using deusbarbershop.Controllers;
+using deusbarbershop.Request;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
-using WideWorldImporters.API.IntegrationTests;
+using System.Text;
+using System.Threading.Tasks;
 using Xunit;
 
 namespace IntegrationTests
@@ -14,8 +17,7 @@ namespace IntegrationTests
     public class WebApplicationFactoryTest : IClassFixture<WebApplicationFactory<Startup>>
     {
 
-        private const string Uri = "Appointment";
-        private const string Uri_with_id = "Appointment/41";
+        private const string Uri = "/Appointment";
 
         private static HttpClient _httpClientWithFullIntegration;
 
@@ -28,29 +30,21 @@ namespace IntegrationTests
         }
 
         [Fact]
-        public async void Get_Returns_AllAppointments()
+        public async Task Get_Returns_AllAppointments()
         {
 
             //Act
             var appointmentResponse = await _httpClientWithFullIntegration.GetAsync(Uri);
 
-            // Assert
-            Assert.Equal(HttpStatusCode.OK, appointmentResponse.StatusCode);
+            appointmentResponse.EnsureSuccessStatusCode();
 
-        }
+            var stringResponse = await appointmentResponse.Content.ReadAsStringAsync();
+            var appointments = JsonConvert.DeserializeObject<List<Appointment>>(stringResponse);
 
-
-        [Fact]
-        public async void Get_Returns_AppointmentById()
-        {
-
-            //Act
-            var appointmentResponse = await _httpClientWithFullIntegration.GetAsync(Uri_with_id);
-
-
-            //Assert
-            Assert.Equal(HttpStatusCode.OK, appointmentResponse.StatusCode);
-
+            Assert.Contains(appointments, e => e.Customer.FirstName.Equals("string"));
+            Assert.Contains(appointments, e => e.Customer.LastName.Equals("string"));
+            Assert.Equal("application/json; charset=utf-8",
+            appointmentResponse.Content.Headers.ContentType.ToString());
         }
     }
 }

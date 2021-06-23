@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KqefugvCfSQpyl/nCA6FgQHbue+MxdjV6U6k7C+ZPdrJlLf1UzOwJzSVQWFHCEq68t0paUd2IAKRUg96HerW1A==",
+  "dgSpecHash": "Mf683Bc4h8KlFSpt7wgbCL1urXDFcf0FmoPuqd2fgKI4HSnN8oWDnQJ9gV2AODc4tiseaNS/pEWmUYfcPQ9uOw==",
   "success": true,
   "projectFilePath": "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\DeusBarberShopService\\Deus_Models\\Deus_Models.csproj",
   "expectedPackageFiles": [
@@ -25,6 +25,7 @@
     "C:\\Users\\giwrg\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\giwrg\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\giwrg\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\giwrg\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\giwrg\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\giwrg\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\giwrg\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
