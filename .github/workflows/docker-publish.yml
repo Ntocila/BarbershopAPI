@@ -19,9 +19,6 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       -
-       name: Test
-       run: dotnet test
-      -
         name: Build and push
         id: docker_build
         uses: docker/build-push-action@v2
