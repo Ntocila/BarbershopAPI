@@ -28,6 +28,6 @@ namespace Deus_Models.Models
         [Column(TypeName = "decimal(18,2)")]
         public decimal ServicePrice { get; set; }
 
-        public List<Appointment> appointments { get; set; }
+        public ICollection<Appointment> appointments { get; set; }
     }
 }
