@@ -1064,4 +1064,5 @@ C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\In
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\IntegrationTests\obj\Debug\net5.0\IntegrationTests.pdb
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\IntegrationTests\obj\Debug\net5.0\IntegrationTests.genruntimeconfig.cache
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\IntegrationTests\obj\Debug\net5.0\IntegrationTests.csproj.AssemblyReference.cache
-C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\IntegrationTests\bin\Debug\net5.0\deusbarbershop.StaticWebAssets.xml
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\IntegrationTests\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.Lolita.dll
+C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\IP-S3DB01\DeusBarberShopService\IntegrationTests\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.Lolita.PostgreSQL.dll
