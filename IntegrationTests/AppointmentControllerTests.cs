@@ -49,8 +49,8 @@ namespace IntegrationTests
         //}
 
         [Theory]
-        [InlineData("/Appointment")]
-        [InlineData("/Appointment/41")]
+        [InlineData("/Service")]
+        [InlineData("/Service/1")]
         public async Task Endpoint_Test_Should_ResultInOK(string endpoint)
         {
             var response = await _client.GetAsync(endpoint);
