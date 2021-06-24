@@ -17,13 +17,11 @@ namespace Deus_Models.Models
         [Required]
         public DateTime AppointmentDate { get; set; }
 
-        [ForeignKey("Customer")]
         public int Customer_Id { get; set; }
         public Customer Customer { get; set; }
 
-        [ForeignKey("Service")]
         [Required]
         public int Service_Id { get; set; }
-        public Service Service { get; set; }
+        public Service Services { get; set; }
     }
 }

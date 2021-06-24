@@ -29,17 +29,23 @@ namespace Deus_DataAccessLayer.Migrations
                     b.Property<DateTime>("AppointmentDate")
                         .HasColumnType("timestamp without time zone");
 
+                    b.Property<int?>("CustomerId")
+                        .HasColumnType("integer");
+
                     b.Property<int>("Customer_Id")
                         .HasColumnType("integer");
 
                     b.Property<int>("Service_Id")
                         .HasColumnType("integer");
 
+                    b.Property<int?>("ServicesId")
+                        .HasColumnType("integer");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("Customer_Id");
+                    b.HasIndex("CustomerId");
 
-                    b.HasIndex("Service_Id");
+                    b.HasIndex("ServicesId");
 
                     b.ToTable("Appointments");
                 });
@@ -90,9 +96,6 @@ namespace Deus_DataAccessLayer.Migrations
                     b.Property<int>("ServiceDuration")
                         .HasColumnType("integer");
 
-                    b.Property<int?>("ServiceId")
-                        .HasColumnType("integer");
-
                     b.Property<string>("ServiceName")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -103,8 +106,6 @@ namespace Deus_DataAccessLayer.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ServiceId");
-
                     b.ToTable("Services");
                 });
 
@@ -112,31 +113,20 @@ namespace Deus_DataAccessLayer.Migrations
                 {
                     b.HasOne("Deus_Models.Models.Customer", "Customer")
                         .WithMany()
-                        .HasForeignKey("Customer_Id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CustomerId");
 
-                    b.HasOne("Deus_Models.Models.Service", "Service")
-                        .WithMany()
-                        .HasForeignKey("Service_Id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.HasOne("Deus_Models.Models.Service", "Services")
+                        .WithMany("Appointments")
+                        .HasForeignKey("ServicesId");
 
                     b.Navigation("Customer");
 
-                    b.Navigation("Service");
+                    b.Navigation("Services");
                 });
 
             modelBuilder.Entity("Deus_Models.Models.Service", b =>
                 {
-                    b.HasOne("Deus_Models.Models.Service", null)
-                        .WithMany("services")
-                        .HasForeignKey("ServiceId");
-                });
-
-            modelBuilder.Entity("Deus_Models.Models.Service", b =>
-                {
-                    b.Navigation("services");
+                    b.Navigation("Appointments");
                 });
 #pragma warning restore 612, 618
         }

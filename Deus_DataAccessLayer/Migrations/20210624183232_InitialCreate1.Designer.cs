@@ -10,8 +10,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Deus_DataAccessLayer.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210624180122_DB")]
-    partial class DB
+    [Migration("20210624183232_InitialCreate1")]
+    partial class InitialCreate1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -31,17 +31,23 @@ namespace Deus_DataAccessLayer.Migrations
                     b.Property<DateTime>("AppointmentDate")
                         .HasColumnType("timestamp without time zone");
 
+                    b.Property<int?>("CustomerId")
+                        .HasColumnType("integer");
+
                     b.Property<int>("Customer_Id")
                         .HasColumnType("integer");
 
                     b.Property<int>("Service_Id")
                         .HasColumnType("integer");
 
+                    b.Property<int?>("ServicesId")
+                        .HasColumnType("integer");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("Customer_Id");
+                    b.HasIndex("CustomerId");
 
-                    b.HasIndex("Service_Id");
+                    b.HasIndex("ServicesId");
 
                     b.ToTable("Appointments");
                 });
@@ -109,19 +115,20 @@ namespace Deus_DataAccessLayer.Migrations
                 {
                     b.HasOne("Deus_Models.Models.Customer", "Customer")
                         .WithMany()
-                        .HasForeignKey("Customer_Id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CustomerId");
 
-                    b.HasOne("Deus_Models.Models.Service", "Service")
-                        .WithMany()
-                        .HasForeignKey("Service_Id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.HasOne("Deus_Models.Models.Service", "Services")
+                        .WithMany("Appointments")
+                        .HasForeignKey("ServicesId");
 
                     b.Navigation("Customer");
 
-                    b.Navigation("Service");
+                    b.Navigation("Services");
+                });
+
+            modelBuilder.Entity("Deus_Models.Models.Service", b =>
+                {
+                    b.Navigation("Appointments");
                 });
 #pragma warning restore 612, 618
         }

@@ -4,7 +4,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace Deus_DataAccessLayer.Migrations
 {
-    public partial class DB : Migration
+    public partial class InitialCreate1 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -48,34 +48,36 @@ namespace Deus_DataAccessLayer.Migrations
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     AppointmentDate = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
                     Customer_Id = table.Column<int>(type: "integer", nullable: false),
-                    Service_Id = table.Column<int>(type: "integer", nullable: false)
+                    CustomerId = table.Column<int>(type: "integer", nullable: true),
+                    Service_Id = table.Column<int>(type: "integer", nullable: false),
+                    ServicesId = table.Column<int>(type: "integer", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Appointments", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Appointments_Customers_Customer_Id",
-                        column: x => x.Customer_Id,
+                        name: "FK_Appointments_Customers_CustomerId",
+                        column: x => x.CustomerId,
                         principalTable: "Customers",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_Appointments_Services_Service_Id",
-                        column: x => x.Service_Id,
+                        name: "FK_Appointments_Services_ServicesId",
+                        column: x => x.ServicesId,
                         principalTable: "Services",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Appointments_Customer_Id",
+                name: "IX_Appointments_CustomerId",
                 table: "Appointments",
-                column: "Customer_Id");
+                column: "CustomerId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Appointments_Service_Id",
+                name: "IX_Appointments_ServicesId",
                 table: "Appointments",
-                column: "Service_Id");
+                column: "ServicesId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

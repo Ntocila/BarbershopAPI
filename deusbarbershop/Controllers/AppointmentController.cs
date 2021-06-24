@@ -40,7 +40,7 @@ namespace deusbarbershop.Controllers
         {
             return await _context.Appointments.
                 Include(customer => customer.Customer).
-                Include(service => service.Service).
+                Include(service => service.Services).
                 ToListAsync();
         }
 

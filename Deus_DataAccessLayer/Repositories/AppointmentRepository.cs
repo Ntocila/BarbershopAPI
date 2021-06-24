@@ -23,7 +23,7 @@ namespace Deus_DataAccessLayer.Services
             List<Appointment> appointments =
                await _db.Appointments
                         .Include(c => c.Customer)
-                        .Include(s => s.Service)
+                        .Include(s => s.Services)
                         .OrderByDescending(x=>x.AppointmentDate)
                         .ToListAsync();
             return appointments;
@@ -33,7 +33,7 @@ namespace Deus_DataAccessLayer.Services
         {
             var appointment = await _db.Appointments
                          .Include(c => c.Customer)
-                         .Include(s => s.Service)
+                         .Include(s => s.Services)
                          .FirstOrDefaultAsync(a => a.Id == id);
             return appointment;
         }
@@ -100,7 +100,7 @@ namespace Deus_DataAccessLayer.Services
             // Return the appointment with the information
             var appointmentInfo = await _db.Appointments
                              .Include(c => c.Customer)
-                             .Include(s => s.Service)
+                             .Include(s => s.Services)
                              .FirstOrDefaultAsync(a => a.Id == id);
 
             return appointmentInfo;
