@@ -21,7 +21,8 @@ namespace Deus_DataAccessLayer.Data
         });
 
             services.AddTransient<IAppointmentRepository, AppointmentRepository>();
-
+            services.AddTransient<ICustomerRepository, CustomerRepository>();
+            services.AddTransient<IServiceRepository, ServiceRepository>();
             return services;
         }
     }
