@@ -27,5 +27,7 @@ namespace Deus_Models.Models
         [Required]
         [Column(TypeName = "decimal(18,2)")]
         public decimal ServicePrice { get; set; }
+
+        public List<Appointment> appointments { get; set; }
     }
 }

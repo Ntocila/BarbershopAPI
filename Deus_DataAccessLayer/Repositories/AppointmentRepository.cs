@@ -22,11 +22,9 @@ namespace Deus_DataAccessLayer.Services
         {
             List<Appointment> appointments =
                await _db.Appointments
-                        .AsNoTracking() // To not include the list of appointment inside Customer class
                         .Include(c => c.Customer)
-                        .AsNoTracking() // To not include the list of appointment inside SalonService class
                         .Include(s => s.Service)
-                         .OrderByDescending(x=>x.AppointmentDate)
+                        .OrderByDescending(x=>x.AppointmentDate)
                         .ToListAsync();
             return appointments;
         }
@@ -34,9 +32,7 @@ namespace Deus_DataAccessLayer.Services
         public async Task<Appointment> GetById(int id)
         {
             var appointment = await _db.Appointments
-                         .AsNoTracking() 
                          .Include(c => c.Customer)
-                         .AsNoTracking()
                          .Include(s => s.Service)
                          .FirstOrDefaultAsync(a => a.Id == id);
             return appointment;

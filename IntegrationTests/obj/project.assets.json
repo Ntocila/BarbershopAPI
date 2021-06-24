@@ -11953,8 +11953,6 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Deus_DataAccessLayer >= 1.0.0",
-      "Deus_Models >= 1.0.0",
       "DoomedDatabases.Postgres >= 0.5.0",
       "JSNLog >= 2.30.0",
       "Microsoft.AspNetCore.Mvc.Testing >= 5.0.7",
@@ -12007,12 +12005,6 @@
           "projectReferences": {
             "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\IP-S3DB01\\DeusBarberShopService\\deusbarbershop\\deusbarbershop.csproj": {
               "projectPath": "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\IP-S3DB01\\DeusBarberShopService\\deusbarbershop\\deusbarbershop.csproj"
-            },
-            "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\IP-S3DB01\\DeusBarberShopService\\Deus_DataAccessLayer\\Deus_DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\IP-S3DB01\\DeusBarberShopService\\Deus_DataAccessLayer\\Deus_DataAccessLayer.csproj"
-            },
-            "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\IP-S3DB01\\DeusBarberShopService\\Deus_Models\\Deus_Models.csproj": {
-              "projectPath": "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\IP-S3DB01\\DeusBarberShopService\\Deus_Models\\Deus_Models.csproj"
             }
           }
         }

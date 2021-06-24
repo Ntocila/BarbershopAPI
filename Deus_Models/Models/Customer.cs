@@ -26,6 +26,7 @@ namespace Deus_Models.Models
 
         [MaxLength(250)]
         public string EmailAddress { get; set; }
-      
+
+        public List<Appointment> appointments { get; set; }
     }
 }

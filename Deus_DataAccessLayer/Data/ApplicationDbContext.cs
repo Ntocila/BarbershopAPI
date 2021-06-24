@@ -20,12 +20,5 @@ namespace Deus_DataAccessLayer.Data
         public DbSet<Appointment> Appointments { get; set; }
         public DbSet<Customer> Customers { get; set; }
        
-
-
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            base.OnModelCreating(builder);
-          
-        }
     }
 }
