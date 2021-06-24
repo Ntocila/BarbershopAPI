@@ -20,10 +20,12 @@ namespace Deus_Models.Models
         [ForeignKey("Customer")]
         public int Customer_Id { get; set; }
         public Customer Customer { get; set; }
+        public ICollection<Customer> customers { get; set; }
 
         [ForeignKey("Service")]
         [Required]
         public int Service_Id { get; set; }
         public Service Service { get; set; }
+        public ICollection<Service> services { get; set; }
     }
 }
