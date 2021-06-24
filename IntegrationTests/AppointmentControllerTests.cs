@@ -48,42 +48,6 @@ namespace IntegrationTests
 
         }
 
-        [Fact]
-        public async Task Post_Appointment_Returns_BadRequest()
-        {
-            using (_client)
-            {
-                var response = await _client.PostAsync("/Appointment", new StringContent(JsonConvert.SerializeObject(new Appointment()
-                {
-                    AppointmentDate = DateTime.Now.AddDays(1),
-                    Customer_Id = 1,
-                    Service_Id = 2,
-                    Customer = new Customer
-                    {
-                        FirstName = "N",
-                        LastName = "T",
-                        EmailAddress = "",
-                        PhoneNumber = "2102725313",
-                        
-                    },
-                    Service = new Service
-                    {
-                        
-                        ServiceDescription = "T",
-                        ServiceDuration = 25,
-                        ServiceName = "T",
-                        ServicePrice = 10
-                    }
-                }),
-                Encoding.UTF8,
-                "application/json"           
-                ));
-
-                response.StatusCode = System.Net.HttpStatusCode.BadRequest;
-            }
-        }
-
-
         [Theory]
         [InlineData("/Appointment")]
         [InlineData("/Appointment/41")]
