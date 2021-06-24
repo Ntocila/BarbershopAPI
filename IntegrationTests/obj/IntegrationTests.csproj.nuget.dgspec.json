@@ -342,6 +342,12 @@
             "projectReferences": {
               "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\IP-S3DB01\\DeusBarberShopService\\deusbarbershop\\deusbarbershop.csproj": {
                 "projectPath": "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\IP-S3DB01\\DeusBarberShopService\\deusbarbershop\\deusbarbershop.csproj"
+              },
+              "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\IP-S3DB01\\DeusBarberShopService\\Deus_DataAccessLayer\\Deus_DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\IP-S3DB01\\DeusBarberShopService\\Deus_DataAccessLayer\\Deus_DataAccessLayer.csproj"
+              },
+              "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\IP-S3DB01\\DeusBarberShopService\\Deus_Models\\Deus_Models.csproj": {
+                "projectPath": "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\IP-S3DB01\\DeusBarberShopService\\Deus_Models\\Deus_Models.csproj"
               }
             }
           }

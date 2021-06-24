@@ -28,6 +28,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\deusbarbershop\deusbarbershop.csproj" />
+    <ProjectReference Include="..\Deus_DataAccessLayer\Deus_DataAccessLayer.csproj" />
+    <ProjectReference Include="..\Deus_Models\Deus_Models.csproj" />
   </ItemGroup>
 
 </Project>
