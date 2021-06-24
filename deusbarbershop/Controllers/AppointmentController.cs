@@ -39,8 +39,7 @@ namespace deusbarbershop.Controllers
         public async Task<ActionResult<IEnumerable<Appointment>>> GetAppointments()
         {
             return await _context.Appointments.
-                Include(customer => customer.Customer).
-                Include(service => service.Services).
+              
                 ToListAsync();
         }
 

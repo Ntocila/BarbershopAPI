@@ -10,7 +10,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Deus_DataAccessLayer.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210624183232_InitialCreate1")]
+    [Migration("20210624184246_InitialCreate1")]
     partial class InitialCreate1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
