@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Deus_DataAccessLayer.Data
 {
-    public class ApplicationDbContext : IdentityDbContext<ApplicationOwner>
+    public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)

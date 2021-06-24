@@ -42,6 +42,8 @@ namespace deusbarbershop
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllers().AddNewtonsoftJson(options =>
+            options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
 
@@ -50,9 +52,8 @@ namespace deusbarbershop
             {
                 options.User.RequireUniqueEmail = false;
             })
-      .AddEntityFrameworkStores<Deus_DataAccessLayer.Data.ApplicationDbContext>()
-      .AddDefaultTokenProviders();
-
+            .AddEntityFrameworkStores<Deus_DataAccessLayer.Data.ApplicationDbContext>()
+            .AddDefaultTokenProviders();
             services.AddAutoMapper(typeof(Deus_Models.Maps.Map));
             services.AddSwaggerGen(c => {
                 c.SwaggerDoc("v1", new OpenApiInfo

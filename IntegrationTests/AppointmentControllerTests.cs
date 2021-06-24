@@ -1,5 +1,7 @@
 ﻿using Deus_Models.Models;
+using deusbarbershop;
 using deusbarbershop.Request;
+using Microsoft.AspNetCore.Mvc.Testing;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -10,10 +12,14 @@ using Xunit;
 
 namespace IntegrationTests
 {
-    public class AppointmentControllerTests : IntegrationTests.IntegrationTest
+    public class AppointmentControllerTests : IClassFixture<WebApplicationFactory<Startup>>
     {
-        public AppointmentControllerTests(ApiWebApplicationFactory fixture) : base(fixture)
-        { }
+        private HttpClient _client { get; set; }
+
+        public AppointmentControllerTests(WebApplicationFactory<Startup> factory)
+        {
+            _client = factory.CreateClient();
+        }
     
         [Fact]
         public async Task Get_Should_Return_Appointment()
