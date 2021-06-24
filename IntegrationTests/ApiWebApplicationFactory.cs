@@ -30,7 +30,7 @@ namespace IntegrationTests
             {
                 services.AddTransient<IAppointmentRepository, AppointmentRepository>();
 
-                services.AddDbContext<ApplicationDbContext>(options =>
+                services.AddEntityFrameworkNpgsql().AddDbContext<ApplicationDbContext>(options =>
                 {
                     options.UseNpgsql("DefaultConnection");
                 });
