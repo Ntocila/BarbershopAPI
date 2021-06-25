@@ -58,3 +58,18 @@ C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\Deus_DataAcc
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\Deus_DataAccessLayer\obj\Debug\net5.0\Deus_DataAccessLayer.dll
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\Deus_DataAccessLayer\obj\Debug\net5.0\ref\Deus_DataAccessLayer.dll
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\Deus_DataAccessLayer\obj\Debug\net5.0\Deus_DataAccessLayer.pdb
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_DataAccessLayer\bin\Debug\net5.0\Deus_DataAccessLayer.deps.json
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_DataAccessLayer\bin\Debug\net5.0\Deus_DataAccessLayer.dll
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_DataAccessLayer\bin\Debug\net5.0\ref\Deus_DataAccessLayer.dll
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_DataAccessLayer\bin\Debug\net5.0\Deus_DataAccessLayer.pdb
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_DataAccessLayer\bin\Debug\net5.0\Deus_Models.dll
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_DataAccessLayer\bin\Debug\net5.0\Deus_Models.pdb
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_DataAccessLayer\obj\Debug\net5.0\Deus_DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_DataAccessLayer\obj\Debug\net5.0\Deus_DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_DataAccessLayer\obj\Debug\net5.0\Deus_DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_DataAccessLayer\obj\Debug\net5.0\Deus_DataAccessLayer.AssemblyInfo.cs
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_DataAccessLayer\obj\Debug\net5.0\Deus_DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_DataAccessLayer\obj\Debug\net5.0\Deus_DataAccessLayer.csproj.CopyComplete
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_DataAccessLayer\obj\Debug\net5.0\Deus_DataAccessLayer.dll
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_DataAccessLayer\obj\Debug\net5.0\ref\Deus_DataAccessLayer.dll
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_DataAccessLayer\obj\Debug\net5.0\Deus_DataAccessLayer.pdb

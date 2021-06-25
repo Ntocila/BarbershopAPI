@@ -46,3 +46,14 @@ C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\Deus_Models\
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\Deus_Models\obj\Debug\net5.0\ref\Deus_Models.dll
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\Deus_Models\obj\Debug\net5.0\Deus_Models.pdb
 C:\Users\giwrg\OneDrive\Desktop\ICT\Semester3\DeusBarberShopService\Deus_Models\obj\Debug\net5.0\Deus_Models.csprojAssemblyReference.cache
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_Models\bin\Debug\net5.0\Deus_Models.deps.json
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_Models\bin\Debug\net5.0\Deus_Models.dll
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_Models\bin\Debug\net5.0\ref\Deus_Models.dll
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_Models\bin\Debug\net5.0\Deus_Models.pdb
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_Models\obj\Debug\net5.0\Deus_Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_Models\obj\Debug\net5.0\Deus_Models.AssemblyInfoInputs.cache
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_Models\obj\Debug\net5.0\Deus_Models.AssemblyInfo.cs
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_Models\obj\Debug\net5.0\Deus_Models.csproj.CoreCompileInputs.cache
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_Models\obj\Debug\net5.0\Deus_Models.dll
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_Models\obj\Debug\net5.0\ref\Deus_Models.dll
+C:\Users\giwrg\Downloads\DeusBarberShopService-master (1)\DeusBarberShopService-master\Deus_Models\obj\Debug\net5.0\Deus_Models.pdb

@@ -11,6 +11,7 @@ namespace Deus_Models.Models
     {
 
         public int Id { get; set; }
+
         [Required]
         [StringLength(50, MinimumLength = 2)]
         public string FirstName { get; set; }

@@ -18,10 +18,6 @@ namespace Deus_Models.Models
         public string ServiceName { get; set; }
 
         [Required]
-        [MaxLength(4000)]
-        public string ServiceDescription { get; set; }
-
-        [Required]
         public int ServiceDuration { get; set; }
 
         [Required]
