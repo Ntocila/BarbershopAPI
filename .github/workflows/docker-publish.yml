@@ -9,23 +9,6 @@ on:
 jobs:
   test:
     name: Integration Tests
-    services:
-      # Label used to access the service container
-      postgres:
-        # Docker Hub PostgreSQL image
-        image: postgres
-        # Provide the password for postgres
-        env:
-          POSTGRES_USER: postgres
-          POSTGRES_PASSWORD: admin
-        options: >-
-          --health-cmd pg_isready
-          --health-interval 10s
-          --health-timeout 5s
-          --health-retries 5
-        ports:
-          - 5432:5432
-    
     runs-on: ubuntu-latest
     env: 
         connectionString: ${{secrets.CONNECTION_STRING}}
