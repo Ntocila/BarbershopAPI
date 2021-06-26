@@ -13,6 +13,7 @@ using Deus_DataAccessLayer.Services;
 using System;
 using System.IO;
 using System.Reflection;
+using Deus_DataAccessLayer;
 
 namespace deusbarbershop
 {
@@ -44,8 +45,7 @@ namespace deusbarbershop
         {
             services.AddControllers().AddNewtonsoftJson(options =>
             options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddPersistence(Configuration.GetConnectionString("DefaultConnection"));
 
             services.AddDatabaseDeveloperPageExceptionFilter();
             services.AddIdentity<Deus_Models.Models.ApplicationOwner, IdentityRole>(options =>

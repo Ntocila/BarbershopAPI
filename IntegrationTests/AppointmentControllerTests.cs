@@ -20,33 +20,7 @@ namespace IntegrationTests
         {
             _client = factory.CreateClient();
         }
-    
-        //[Fact]
-        //public async Task Get_Should_Return_Appointment()
-        //{
-        //    var response = await _client.GetAsync("/Appointment");
-        //    response.EnsureSuccessStatusCode();
-
-        //    var appointment = JsonConvert.DeserializeObject<List<Appointment>>(
-        //        await response.Content.ReadAsStringAsync()
-        //        );
-
-        //    Assert.True(appointment.Count > 0);
-        //}
-
-        //[Fact]
-        //public async Task Get_Should_Return_AppointmentWithId()
-        //{
-        //    var response = await _client.GetAsync("/Appointment/41");
-        //    response.EnsureSuccessStatusCode();
-
-        //    var appointment = JsonConvert.DeserializeObject<Appointment>(
-        //        await response.Content.ReadAsStringAsync()
-        //        );
-
-        //    response.EnsureSuccessStatusCode();
-
-        //}
+   
 
         [Theory]
         [InlineData("/Service")]

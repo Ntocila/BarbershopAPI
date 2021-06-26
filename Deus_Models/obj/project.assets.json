@@ -985,11 +985,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\giwrg\\Downloads\\DeusBarberShopService-master (1)\\DeusBarberShopService-master\\Deus_Models\\Deus_Models.csproj",
+      "projectUniqueName": "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\IP-S3DB01\\DeusBarberShopService\\Deus_Models\\Deus_Models.csproj",
       "projectName": "Deus_Models",
-      "projectPath": "C:\\Users\\giwrg\\Downloads\\DeusBarberShopService-master (1)\\DeusBarberShopService-master\\Deus_Models\\Deus_Models.csproj",
+      "projectPath": "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\IP-S3DB01\\DeusBarberShopService\\Deus_Models\\Deus_Models.csproj",
       "packagesPath": "C:\\Users\\giwrg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\giwrg\\Downloads\\DeusBarberShopService-master (1)\\DeusBarberShopService-master\\Deus_Models\\obj\\",
+      "outputPath": "C:\\Users\\giwrg\\OneDrive\\Desktop\\ICT\\Semester3\\IP-S3DB01\\DeusBarberShopService\\Deus_Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

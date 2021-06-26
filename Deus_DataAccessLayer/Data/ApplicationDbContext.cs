@@ -20,13 +20,5 @@ namespace Deus_DataAccessLayer.Data
         public DbSet<Appointment> Appointments { get; set; }
         public DbSet<Customer> Customers { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Appointment>()
-                .HasOne(p => p.Services)
-                .WithMany(b => b.Appointments)
-                .HasForeignKey(p => p.Service_Id);
-        }
-
     }
 }
