@@ -48,11 +48,11 @@ namespace deusbarbershop
             services.AddPersistence(Configuration.GetConnectionString("DefaultConnection"));
 
             services.AddDatabaseDeveloperPageExceptionFilter();
-            services.AddIdentity<Deus_Models.Models.ApplicationOwner, IdentityRole>(options =>
+            services.AddIdentity<ApplicationOwner, IdentityRole>(options =>
             {
                 options.User.RequireUniqueEmail = false;
             })
-            .AddEntityFrameworkStores<Deus_DataAccessLayer.Data.ApplicationDbContext>()
+            .AddEntityFrameworkStores<ApplicationDbContext>()
             .AddDefaultTokenProviders();
             services.AddAutoMapper(typeof(Deus_Models.Maps.Map));
             services.AddSwaggerGen(c => {
@@ -90,8 +90,8 @@ namespace deusbarbershop
         /// <param name="roleManager"></param>
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env,
-            //UserManager<ApplicationOwner> userManager,
-            //RoleManager<IdentityRole> roleManager)
+            UserManager<ApplicationOwner> userManager,
+            RoleManager<IdentityRole> roleManager)
         {
             if (env.IsDevelopment())
             {
