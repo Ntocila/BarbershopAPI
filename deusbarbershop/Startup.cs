@@ -90,8 +90,8 @@ namespace deusbarbershop
         /// <param name="roleManager"></param>
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env,
-            UserManager<ApplicationOwner> userManager,
-            RoleManager<IdentityRole> roleManager)
+            //UserManager<ApplicationOwner> userManager,
+            //RoleManager<IdentityRole> roleManager)
         {
             if (env.IsDevelopment())
             {
